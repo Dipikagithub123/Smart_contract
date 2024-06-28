@@ -41,13 +41,15 @@ function checkConditionAndRevert(bool condition) public pure {
     }
 }
 
-4.demoAssert(): Demonstrates the use of assert to ensure the balance is non-negative.
+4.`demoAssert()`: Demonstrates the use of assert to ensure the balance is non-negative.
 
 function demoAssert() public view {
     assert(balance >= 0);
 }
 
+
 Steps to Deploy and Interact Using Remix IDE
+
 Open Remix IDE:
 
 Go to Remix IDE.
@@ -100,6 +102,7 @@ Click on call to ensure the balance is non-negative.
 Authors
 
 Metacrafter Dipika Tiwari
+
 dipikadeepsikha@gmail.com
 
 License
