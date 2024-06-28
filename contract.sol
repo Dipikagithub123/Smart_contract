@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-contract ExampleContract {
+contract mySmartContract {
     uint public balance;
 
     // Function to deposit Ether into the contract
